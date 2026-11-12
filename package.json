@@ -1,0 +1,28 @@
+{
+  "name": "pi-worktree-guard",
+  "version": "0.1.0",
+  "description": "blocks edits to a primary checkout, steering agents into isolated worktrees",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pi-package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmatzen/pi-worktree-guard.git"
+  },
+  "author": "kmatzen",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
