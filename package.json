@@ -1,6 +1,6 @@
 {
   "name": "pi-worktree-guard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "blocks edits to a primary checkout, steering agents into isolated worktrees",
   "type": "module",
   "pi": {
